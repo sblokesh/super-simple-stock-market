@@ -6,9 +6,7 @@ import java.math.BigDecimal;
 /**
  * Represents a trade in the market.
  */
-public final class Trade implements Serializable {
-
-	private static final long serialVersionUID = 1L;
+public final class Trade {
 
 	private final Stock stock;
 	private final long timestamp;
